@@ -321,14 +321,19 @@ def md_to_html(md: str) -> tuple[str, str]:
         if re.match(r"^\*\*(Status|Revision date)\b", s):
             # Render discipline: source keeps status/revision metadata
             # (lorecheck reads source); readers get clean headings.
-            i += 1
+            # Skip the whole paragraph: status lines may wrap.
+            while i < n and lines[i].strip():
+                i += 1
             continue
         m = re.match(r"^(#{1,3})\s+(.*)$", s)
         if m:
             level = len(m.group(1))
             text = inline(m.group(2))
             if level == 1 and title == "Untitled":
+                # page() renders the title as the page <h1>; don't repeat it.
                 title = re.sub(r"<[^>]+>", "", text)
+                i += 1
+                continue
             parts.append(f'<h{level} id="{slug(text)}">{text}</h{level}>')
             i += 1
             continue

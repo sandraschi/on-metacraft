@@ -20,17 +20,17 @@ First draft: Gemini, chat chain, 2026-10-13, preserved verbatim in
 `docs/GEMINI_DRAFT_2026-10-13.md`. First review in `docs/ASSESSMENT.md`
 (three cold-open facts corrected, legal frame rebuilt, Level 3 hazard-boxed).
 
-## Chapters (I-X, stubs in `chapters/`)
+## Chapters (I-X, draft v0.1 in `chapters/`)
 
-I The breach (ArtCraft, 2026-09-30 to 2026-10-11) · II The mechanizers
-(Jacquard to the agent harness) · III No moat equation (what the law
-actually protected) · IV The stack (headless engine + MCP control plane) ·
-V Locating the present (living, revision-dated) · VI Thresholds as
+I The breach (ArtCraft, 2026-09-30 to 2026-10-11) | II The mechanizers
+(Jacquard to the agent harness) | III No moat equation (what the law
+actually protected) | IV The stack (headless engine + MCP control plane) |
+V Locating the present (living, revision-dated) | VI Thresholds as
 attachment points (patents, formats, platforms, liability, certification)
-· VII Dark megawatts (amortized silicon and where the analogy breaks) ·
+| VII Dark megawatts (amortized silicon and where the analogy breaks) |
 VIII The physical ladder (ordered by cost of a physical test: needlecraft
-to chips) · IX MetaCraft (autonomy levels L0-L4, the incumbent as test
-bench, attachment points) · X The physical firewall +
+to chips) | IX MetaCraft (autonomy levels L0-L4, the incumbent as test
+bench, attachment points) | X The physical firewall +
 the book in the corpus. Side: `side-dark-mirror.md` (governance-only).
 
 ## Design constraints (normative, see CONTRIBUTING.md)

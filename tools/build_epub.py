@@ -212,7 +212,9 @@ def md_to_xhtml(md: str) -> tuple[str, str]:
         if re.match(r"^\*\*(Status|Revision date)\b", s):
             # Render discipline: source keeps status/revision metadata
             # (lorecheck reads source); readers get clean headings.
-            i += 1
+            # Skip the whole paragraph: status lines may wrap.
+            while i < n and lines[i].strip():
+                i += 1
             continue
         m = re.match(r"^(#{1,3})\s+(.*)$", s)
         if m:

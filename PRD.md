@@ -32,5 +32,5 @@ See README. Short form: the moat was labor, not law.
 
 ## Non-goals
 
-Capability benchmarks as proof · offensive-domain mechanisms ·
-legal advice · single-pass AI-drafted chapters · public launch before v1.0.
+Capability benchmarks as proof | offensive-domain mechanisms |
+legal advice | single-pass AI-drafted chapters | public launch before v1.0.

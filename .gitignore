@@ -15,3 +15,6 @@ mcpb/src/
 site/audio/
 .DS_Store
 Thumbs.db
+
+# Built reader site (reproducible: just build)
+site/

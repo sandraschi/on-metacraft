@@ -36,3 +36,10 @@ and decaying patent surface.
 - Verify all `[construction]` dates in Review C before manuscript use.
 - Port 11026 not yet registered in WEBAPP_PORTS.md; on-hyperart's 10968
   collides with kick-mcp there.
+
+## Stage at 2026-10-13 (end of day)
+
+All chapters have Draft v0.1 prose (Opus 5.5) except Ch V (dated ledger).
+lorecheck: 1/10 chapters free of `[construction]` flags (VI), ~50 flags
+open. Next: Gemini cross-review of Reviews A-E and the drafts, then
+flag burn-down.
