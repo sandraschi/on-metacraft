@@ -6,12 +6,19 @@ Dated reviews live in `docs/REVIEW_<date>_<model>_<letter>_<topic>.md`.
 Never edit a review after its date; supersede it with a new one and note
 it here.
 
+**Opinion marking:** from Review E on, Opus judgments are marked as
+`> **OPUS OPINION ...**` blocks; everything else is fact or a summary of
+Sandra's position. In Reviews A-D, any statement without a cite or
+`[construction]` flag is Opus opinion. Cross-model reviews (Gemini) go in
+as `REVIEW_<date>_GEMINI_<letter>_<topic>.md`, answering by letter.
+
 | Date | Review | Verdict | Status |
 |---|---|---|---|
 | 2026-10-13 | [A - Gemini draft](REVIEW_2026-10-13_OPUS_A_GEMINI-DRAFT.md) | Good spine, wrong thesis; legal frame rebuilt; Level 3 hazard-boxed | App-count row superseded by B |
 | 2026-10-13 | [B - ArtCraft verified](REVIEW_2026-10-13_OPUS_B_ARTCRAFT.md) | 13 apps, about 1 release/day/app, agent-hour budgeting, oracle-driven method | Current |
 | 2026-10-13 | [C - Patent objection](REVIEW_2026-10-13_OPUS_C_PATENTS.md) | Patents are a weak, decaying moat; Bessemer and "Shenzhen ignores" need replacing | Current |
 | 2026-10-13 | [D - Checking cost](REVIEW_2026-10-13_OPUS_D_CHECKING-COST.md) | Targets unbounded; checking cost sets the order; law stops defendants, not practices; compatibility beats familiarity | Current |
+| 2026-10-13 | [E - Physical ladder + MetaCraft](REVIEW_2026-10-13_OPUS_E_PHYSICAL-AND-METACRAFT.md) | Physical rungs ordered by test cost; MetaCraft L0-L4, L3 (agents build checkers) is the unlock; incumbent as test bench; 4 questions for Gemini | Current, awaiting Gemini |
 
 ## Current thesis
 

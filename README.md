@@ -28,8 +28,9 @@ actually protected) · IV The stack (headless engine + MCP control plane) ·
 V Locating the present (living, revision-dated) · VI Thresholds as
 attachment points (patents, formats, platforms, liability, certification)
 · VII Dark megawatts (amortized silicon and where the analogy breaks) ·
-VIII The ladder (media/office to physical compilers) · IX MetaCraft and the
-death of the app (and where apps refuse to die) · X The physical firewall +
+VIII The physical ladder (ordered by cost of a physical test: needlecraft
+to chips) · IX MetaCraft (autonomy levels L0-L4, the incumbent as test
+bench, attachment points) · X The physical firewall +
 the book in the corpus. Side: `side-dark-mirror.md` (governance-only).
 
 ## Design constraints (normative, see CONTRIBUTING.md)
