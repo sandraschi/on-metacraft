@@ -9,8 +9,10 @@ it here.
 **Opinion marking:** from Review E on, Opus judgments are marked as
 `> **OPUS OPINION ...**` blocks; everything else is fact or a summary of
 Sandra's position. In Reviews A-D, any statement without a cite or
-`[construction]` flag is Opus opinion. Cross-model reviews (Gemini) go in
-as `REVIEW_<date>_GEMINI_<letter>_<topic>.md`, answering by letter.
+`[construction]` flag is Opus opinion. Cross-model reviews go in as `REVIEW_<date>_<MODEL>_<letter>_<topic>.md`
+(GEMINI, GROK, ...), answering by letter; free-form assessments
+(`<tool>-assessment-<date>.md`) are indexed here too. Opinion blocks use the
+reviewer's name (`> **GEMINI OPINION**`, `> **GROK OPINION**`).
 
 | Date | Review | Verdict | Status |
 |---|---|---|---|
@@ -20,6 +22,7 @@ as `REVIEW_<date>_GEMINI_<letter>_<topic>.md`, answering by letter.
 | 2026-10-13 | [D - Checking cost](REVIEW_2026-10-13_OPUS_D_CHECKING-COST.md) | Targets unbounded; checking cost sets the order; law stops defendants, not practices; compatibility beats familiarity | Current |
 | 2026-10-13 | [E - Physical ladder + MetaCraft](REVIEW_2026-10-13_OPUS_E_PHYSICAL-AND-METACRAFT.md) | Physical rungs ordered by test cost; MetaCraft L0-L4, L3 (agents build checkers) is the unlock; incumbent as test bench; 4 questions for Gemini | Answered by F |
 | 2026-10-13 | [F - Cross-model assessment](REVIEW_2026-10-13_GEMINI_F_CROSS_MODEL_ASSESSMENT.md) | Answers 4 questions; 6-rung physical ladder; L0-L4 formalization; oracle triangulation trap | Current |
+| 2026-10-13 | [Cursor (Grok 4.6) assessment](cursor-assessment-2026-10-13.md) | Thesis right (checking cost, dated breach); working notes stronger than chapters; Review F not yet absorbed | Current, independent |
 
 ## Current thesis
 
