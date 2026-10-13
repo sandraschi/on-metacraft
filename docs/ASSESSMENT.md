@@ -11,6 +11,7 @@ it here.
 | 2026-10-13 | [A - Gemini draft](REVIEW_2026-10-13_OPUS_A_GEMINI-DRAFT.md) | Good spine, wrong thesis; legal frame rebuilt; Level 3 hazard-boxed | App-count row superseded by B |
 | 2026-10-13 | [B - ArtCraft verified](REVIEW_2026-10-13_OPUS_B_ARTCRAFT.md) | 13 apps, about 1 release/day/app, agent-hour budgeting, oracle-driven method | Current |
 | 2026-10-13 | [C - Patent objection](REVIEW_2026-10-13_OPUS_C_PATENTS.md) | Patents are a weak, decaying moat; Bessemer and "Shenzhen ignores" need replacing | Current |
+| 2026-10-13 | [D - Checking cost](REVIEW_2026-10-13_OPUS_D_CHECKING-COST.md) | Targets unbounded; checking cost sets the order; law stops defendants, not practices; compatibility beats familiarity | Current |
 
 ## Current thesis
 
@@ -21,7 +22,7 @@ and decaying patent surface.
 
 ## Open items (gate to v0.2)
 
-- "Twenty more apps lined up": source needed.
+- Reddit AutoCAD-request thread: URL + date (did it precede 2026-10-07?).
 - Storyteller.ai funding / Thomas's role.
 - Download-link removal vs GitHub releases.
 - Office-app parity numbers from their own ROADMAP.md files.
