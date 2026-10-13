@@ -1,0 +1,108 @@
+# bookkit configuration - see D:\Dev\repos\bookkit\README.md
+[book]
+slug = "on-metacraft"
+title = "On MetaCraft"
+subtitle = "The Reimplementation Cost Collapse"
+author = "Sandra Schipal"
+identifier = "urn:uuid:83fae439-7a5a-48e3-937e-d537ed4c18dc"
+language = "en"
+port = 11026
+theme = "amber"
+blurb = "Proprietary software was defended by the labor cost of reimplementation, not by law. In 2026 agent swarms collapsed that cost. Ten chapters on what fell, what holds, and who still holds the brakes."
+
+[chapters]
+dir = "chapters"
+order = [
+  "00-preface.md",
+  "01-the-breach.md",
+  "02-mechanizers.md",
+  "03-no-moat-equation.md",
+  "04-the-stack.md",
+  "05-locating-the-present.md",
+  "06-thresholds.md",
+  "07-dark-megawatts.md",
+  "08-physical-ladder.md",
+  "09-metacraft.md",
+  "10-physical-firewall.md",
+  "side-dark-mirror.md",
+]
+front_matter = ["00-preface.md"]
+expected = [
+  "01-the-breach.md", "02-mechanizers.md", "03-no-moat-equation.md", "04-the-stack.md",
+  "05-locating-the-present.md", "06-thresholds.md", "07-dark-megawatts.md",
+  "08-physical-ladder.md", "09-metacraft.md", "10-physical-firewall.md",
+]
+
+[[docs]]
+src = "ASSESSMENT.md"
+out = "assessment.html"
+label = "Assessment"
+index_label = "Assessment and dated reviews"
+
+[[docs]]
+src = "REFERENCES.md"
+out = "references.html"
+label = "References"
+index_label = "References"
+
+[[docs]]
+src = "GLOSSARY.md"
+out = "glossary.html"
+label = "Glossary"
+index_label = "Glossary"
+
+[lore]
+forbidden = ["skynet", "terminator"]
+mystique = ["laundering", "one-shotted", "zero-cost"]
+not_real_status = ["stub", "draft"]
+ascii = true
+ascii_exempt = ["docs/GEMINI_DRAFT_*"]
+
+[translate]
+# Machine editions. Run `bk translate --dry-run` to see the plan; live runs cost API calls.
+languages = []
+exclude = []
+
+[dumbdown]
+levels = []
+exclude = []
+exclude_kids = ["side-dark-mirror.md"]
+
+[evidence]
+github_orgs = ["storytold"]
+repo_filter = "craft$"
+ledger = "chapters/05-locating-the-present.md"
+
+[evidence.labels]
+photocraft = "Photoshop"
+vectorcraft = "Illustrator"
+filmcraft = "Premiere"
+lightcraft = "Lightroom"
+pdfcraft = "Acrobat"
+effectcraft = "After Effects"
+designcraft = "InDesign"
+wordcraft = "Word"
+gridcraft = "Excel"
+deckcraft = "PowerPoint"
+soundcraft = "Pro Tools"
+cadcraft = "AutoCAD"
+figcraft = "Figma"
+
+[declaim.lexicon]
+PSD = "P S D"
+OOXML = "O O X M L"
+CJEU = "C J E U"
+EPO = "E P O"
+egui = "e-gooey"
+wgpu = "w g p u"
+WASM = "wasm"
+MCP = "M C P"
+KDP = "K D P"
+
+[publish]
+description = "[construction: back-cover description]"
+keywords = ["software", "artificial intelligence", "open source", "clean room", "copyright", "agents", "economics"]
+categories = []
+
+[llm]
+# model = "set after `bk models`"

@@ -36,3 +36,52 @@ lore:
 
 lore-strict:
   @py -3 tools/lorecheck.py --strict
+
+# ---- bookkit (shared toolkit, ../bookkit) ----
+bk := "py -3 ../bookkit/bk.py"
+
+# Style check: AI-writer tells, rhythm, readability. Add --llm for an editor's critique.
+critic *ARGS:
+  @{{bk}} critic {{ARGS}}
+
+# Claims ledger of [construction] flags (docs/claims.json). --stale N for unchecked ones.
+claims *ARGS:
+  @{{bk}} claims {{ARGS}}
+
+# Flag count per commit -> docs/burndown.csv
+burndown:
+  @{{bk}} burndown
+
+# Machine translation into chapters_<lang>/ (dry run first!). Example: just translate --lang fr --dry-run
+translate *ARGS:
+  @{{bk}} translate {{ARGS}}
+
+# Reading-level editions. Example: just dumbdown --level kids --dry-run
+dumbdown *ARGS:
+  @{{bk}} dumbdown {{ARGS}}
+
+# Cross-model review. Example: just review --target chapters/04-the-ladder.md --topic ladder --dry-run
+review *ARGS:
+  @{{bk}} review {{ARGS}}
+
+# Dated GitHub evidence snapshot (needs [evidence] in book.toml)
+evidence *ARGS:
+  @{{bk}} evidence {{ARGS}}
+
+# Print PDF, covers, EPUB validation, KDP packages (no upload)
+pdf *ARGS:
+  @{{bk}} pdf {{ARGS}}
+cover *ARGS:
+  @{{bk}} cover {{ARGS}}
+validate:
+  @{{bk}} validate
+publish *ARGS:
+  @{{bk}} publish {{ARGS}}
+
+# Everything at once: evidence, claims, lore, editions, build, validate
+keepcurrent *ARGS:
+  @{{bk}} keepcurrent {{ARGS}}
+
+# Series dashboard across all books + port collision check
+series:
+  @{{bk}} series

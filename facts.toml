@@ -1,0 +1,18 @@
+# Canonical facts: every match of `pattern` in chapters must equal `expect`.
+# bk lore reports mismatches with file:line. Reviews (docs/REVIEW_*) are
+# historical records and are not checked.
+
+[[fact]]
+name = "PhotoCraft first commit"
+pattern = "first commit[^.]{0,80}?(\\d{4}-\\d{2}-\\d{2})"
+expect = "2026-09-30"
+
+[[fact]]
+name = "Crafting app count"
+pattern = "\\b(seven|twelve|thirteen|7|12|13) (?:Crafting )?app(?:s|lications)\\b"
+expect = "thirteen|13"
+
+[[fact]]
+name = "Kahn ladder rungs"
+pattern = "\\b(\\d+|forty-two|forty-four)[- ]rung"
+expect = "44|forty-four"

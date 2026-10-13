@@ -1,0 +1,245 @@
+{
+ "C-f17ca65c": {
+  "file": "chapters/00-preface.md",
+  "line": 55,
+  "text": "Every unverified claim carries a",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-8b572473": {
+  "file": "chapters/01-the-breach.md",
+  "line": 19,
+  "text": "confirm site launch date",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-c64c70f8": {
+  "file": "chapters/01-the-breach.md",
+  "line": 38,
+  "text": "verify; funding history open",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-c4d67ea8": {
+  "file": "chapters/01-the-breach.md",
+  "line": 40,
+  "text": "primary source",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-db7580c2": {
+  "file": "chapters/01-the-breach.md",
+  "line": 52,
+  "text": "HN thread ids in adobe-offensive/01",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-3ed2ff84": {
+  "file": "chapters/01-the-breach.md",
+  "line": 73,
+  "text": "dated headcount source",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-e44c39fa": {
+  "file": "chapters/02-mechanizers.md",
+  "line": 20,
+  "text": "patent and demonstration date, 1801-1804",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-b2d5d77b": {
+  "file": "chapters/02-mechanizers.md",
+  "line": 36,
+  "text": "Model T chassis assembly time before/after, 1913-1914",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-a2f89b7d": {
+  "file": "chapters/02-mechanizers.md",
+  "line": 63,
+  "text": "release date, 2006-11 or 2007-02",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-c555fa44": {
+  "file": "chapters/03-no-moat-equation.md",
+  "line": 112,
+  "text": "plementer contexts with a vetted specification between them would rebuild it. Whether ArtCraft does this is not public. ",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-814a1c12": {
+  "file": "chapters/03-no-moat-equation.md",
+  "line": 120,
+  "text": "re-check github/dmca and dockets at each revision",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-6eac7a09": {
+  "file": "chapters/04-the-stack.md",
+  "line": 54,
+  "text": "measure named app vs incumbent on named hardware; PhotoCraft has a perf/ directory",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-d385031b": {
+  "file": "chapters/05-locating-the-present.md",
+  "line": 3,
+  "text": "**Status:** stub v0.1 2026-10-13",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-ed0b5e1b": {
+  "file": "chapters/05-locating-the-present.md",
+  "line": 27,
+  "text": "thread URL + date; establish whether it preceded or followed 2026-10-07",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-b977c029": {
+  "file": "chapters/07-dark-megawatts.md",
+  "line": 21,
+  "text": "share of US long-haul fiber unlit ca. 2002, dated source",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-6aca7f48": {
+  "file": "chapters/07-dark-megawatts.md",
+  "line": 53,
+  "text": "verify exact figures",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-328139c8": {
+  "file": "chapters/07-dark-megawatts.md",
+  "line": 63,
+  "text": "tokens per joule by generation, A100 / H100 / current, at a stated power price",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-61bbce22": {
+  "file": "chapters/07-dark-megawatts.md",
+  "line": 74,
+  "text": "ted series of spot prices for previous-generation accelerators and of API token prices for the models used to write code",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-9cdbc60f": {
+  "file": "chapters/08-physical-ladder.md",
+  "line": 39,
+  "text": "current prices and licensing models",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-dca483bb": {
+  "file": "chapters/08-physical-ladder.md",
+  "line": 44,
+  "text": "name and date the main open libraries",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-574124c0": {
+  "file": "chapters/08-physical-ladder.md",
+  "line": 57,
+  "text": "SDS-ONE APEX, M1plus, licensing",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-c436fcc4": {
+  "file": "chapters/08-physical-ladder.md",
+  "line": 79,
+  "text": "FTC action against Deere, 2025, status",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-9b0f3f2a": {
+  "file": "chapters/09-metacraft.md",
+  "line": 56,
+  "text": "define what counts as evidence, e.g. a corpus or reference implementation committed with no human author",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-293e24fb": {
+  "file": "chapters/09-metacraft.md",
+  "line": 70,
+  "text": "Review E question 4",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-0a6f34cf": {
+  "file": "chapters/10-physical-firewall.md",
+  "line": 32,
+  "text": "issue date",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-c268c01d": {
+  "file": "chapters/10-physical-firewall.md",
+  "line": 41,
+  "text": "cite one dated governance instrument, e.g. synthesis screening guidance",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ },
+ "C-03f97b76": {
+  "file": "chapters/side-dark-mirror.md",
+  "line": 20,
+  "text": " points | |---|---|---| | Offensive cyber capability | Wassenaar Arrangement controls on intrusion software (added 2013)",
+  "status": "open",
+  "source": "",
+  "checked": "",
+  "opened": "2026-10-13"
+ }
+}
