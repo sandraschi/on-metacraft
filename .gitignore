@@ -1,0 +1,17 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.env
+*.sqlite3
+*.db*
+data/
+webapp/dist/
+target/
+mcpb/src/
+*.mcpb
+*.bak
+*.bak.*
+site/audio/
+.DS_Store
+Thumbs.db
