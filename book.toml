@@ -70,7 +70,7 @@ exclude_kids = ["side-dark-mirror.md"]
 
 [evidence]
 github_orgs = ["storytold"]
-repo_filter = "craft$"
+repo_filter = "^(?!artcraft$|placeholder-).*craft$"
 ledger = "chapters/05-locating-the-present.md"
 
 [evidence.labels]
