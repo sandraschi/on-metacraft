@@ -1,10 +1,10 @@
 # I. The Breach
 
-**Status:** Draft v0.1 2026-10-13 (Opus 5.5). Sources: GitHub API on the
+**Status:** Draft v0.2 2026-10-18. Sources: GitHub API on the
 `storytold` org, PhotoCraft README / AGENTS.md / ROADMAP.md, press
-2026-10-07..12, `mcp-central-docs/projects/adobe-offensive/01` (2026-10-08).
-Gemini and Sandra review pending.
-**Revision date:** 2026-10-13.
+2026-10-07..18, Goliath install check 2026-10-18,
+`mcp-central-docs/projects/adobe-offensive/01` (2026-10-08).
+**Revision date:** 2026-10-18.
 
 ## Thirteen days
 
@@ -25,10 +25,18 @@ SoundCraft for Avid Pro Tools; CADCraft for Autodesk AutoCAD. FigCraft,
 for Figma, followed on 2026-10-09.
 
 By 2026-10-12 the thirteen apps had published 93 releases between them,
-about one release per app per day. PhotoCraft alone had collected roughly
-55,000 GitHub stars by 2026-10-13. Its commit log since 2026-09-30 held
-1,511 commits and about 1,579 `Co-Authored-By: Claude` lines: nearly every
-change had an agent as co-author.
+about one release per app per day. PhotoCraft had 55,197 GitHub stars
+in the 2026-10-13 snapshot. The 2026-10-18 snapshot (`evidence/2026-10-18.json`):
+67,027 stars, 12 releases, latest tag v0.10.0; suite-wide 120 releases and
+167,586 stars. Inflow cooled after an Oct 7-12 spike. Stars are weather.
+Chapter V holds the living count. PhotoCraft is dual-licensed MIT or Apache-2.0.
+The generative studio is a separate product, `storytold/artcraft`, not
+one of the thirteen.
+
+Its commit log since 2026-09-30 held 1,511 commits and about 1,579
+`Co-Authored-By: Claude` lines as of 2026-10-13: nearly every change had
+an agent as co-author. `[construction: re-count Co-Authored-By at next
+evidence run]`
 
 ## Not a lone genius, not a corporation
 
@@ -85,4 +93,7 @@ software stopped being the barrier it had been for forty years.
 ## Fleet link
 
 on-ai-takeover: the per-seat subscription line item, seen from the buyer's
-budget, that this chapter makes optional.
+budget, that this chapter makes optional. on-hyperart: the Crafts are how
+a generated picture becomes a PSD, AI, or PREL a client can still open.
+on-hyperwar: dual-use consumer stack versus exquisite incumbent; analogical
+only, no munitions software.

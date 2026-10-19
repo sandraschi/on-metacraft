@@ -1,9 +1,9 @@
 # III. No Moat Equation
 
-**Status:** Draft v0.1 2026-10-13 (Opus 5.5). Sources: Gemini draft s.I
+**Status:** Draft v0.2 2026-10-18. Sources: Gemini draft s.I
 (rebuilt), Review C, `mcp-central-docs/projects/adobe-offensive/14-legal-deep-dive.md`
-(2026-10-11). Not legal advice. Gemini and Sandra review pending.
-**Revision date:** 2026-10-13.
+(2026-10-11), Sandra on adhesive ToS 2026-10-18. Not legal advice.
+**Revision date:** 2026-10-18.
 
 ## The wrong question
 
@@ -93,8 +93,9 @@ Chapter VI with owners and dates.
    incumbent is a letter about look, not code. The defense is that
    familiarity is functional; the cheap remedy is to restyle the chrome.
 3. **Contract.** End-user license clauses against reverse engineering
-   bind licensees in the US (*Bowers v. Baystate*, Fed. Cir. 2003); in the
-   EU, Art. 8 voids them as far as observation goes.
+   can bind a US licensee who clicked (*Bowers v. Baystate*, Fed. Cir.
+   2003). In the EU, Art. 8 voids them as far as observation goes. They
+   are not a moat against clean-room reimplementation. See below.
 4. **Format licenses.** Mostly waived by the incumbents themselves to win
    ISO standardization: Adobe's royalty-free patent license for ISO
    32000-1:2008 (PDF 1.7), Microsoft's Open Specification Promise for
@@ -116,11 +117,34 @@ Honesty requires two caveats.
   expression must be shown in the clone. Fresh Rust against decades-old C++
   is unlikely to show it.
 
-As of 2026-10-11 no cease-and-desist, takedown or suit against the Crafting
-Apps had been reported `[construction: re-check github/dmca and dockets
-at each revision]`.
+As of 2026-10-18 no cease-and-desist, takedown or suit against the Crafting
+Apps had been reported in press roundups `[construction: re-check github/dmca
+and dockets at each revision]`.
+
+## The ToS that is not a threshold
+
+Adobe's terms, as discussed in October 2026 coverage, include language
+forbidding monitoring or tracking an application's inputs and outputs
+"in order to recreate that system." Counsel pieces treat this as a live
+risk. This book does not.
+
+A term that says "do not look at our product in order to compete" is
+not a property right. It is a contract of adhesion trying to claw back
+what copyright already excluded: ideas, procedures, methods of operation
+(s.102(b)), observation of a running program (Sega, Connectix; Directive
+Art. 5(3)), and, in Europe, a right the license cannot remove (Art. 8,
+SAS). Sandra's position, dated 2026-10-18: the clause is arbitrary, based
+on thin air, a no-hoper as a moat for Adobe or any other vendor. A letter
+may still be sent. Distribution (Chapter VI, threshold D) may still pinch.
+The term itself does not convert looking into infringement.
+
+*Bowers* at most binds the person who clicked that EULA. It does not bind
+a team that never took the license. It does not survive Art. 8. This
+chapter therefore does not promote anti-clone ToS language to an
+attachment point.
 
 ## Fleet link
 
 on-hyperart Ch VII: copyright filters as a failed control case. There the
-law tried to protect style and could not; here it never tried.
+law tried to protect style and could not; here it never tried. The ToS
+move is the same wish in contract clothes.

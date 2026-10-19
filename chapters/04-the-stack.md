@@ -3,7 +3,7 @@
 **Status:** Draft v0.1 2026-10-13 (Opus 5.5). Sources: Gemini draft s.II,
 PhotoCraft README / AGENTS.md / ROADMAP.md (2026-10-11), Review B.
 Gemini and Sandra review pending.
-**Revision date:** 2026-10-13.
+**Revision date:** 2026-10-18.
 
 ## The inversion
 
@@ -40,6 +40,12 @@ after the fact. An app built this way cannot have a function the agent
 cannot reach, because there is no other way to add a function. The Gemini
 draft called MCP "the real nervous system". It is more exact to say there
 is only one nervous system, and the human hand is one of its four inputs.
+
+Goliath, 2026-10-18: Sandra reports CLI and MCP on the installed Crafts
+are usable. That is an operator fact about this machine, not a benchmark.
+Cursor's user `mcp.json` on Goliath does not register the Craft servers;
+the control plane is the app's own CLI / JSON / MCP, as the READMEs
+describe.
 
 ## Native, not wrapped
 
