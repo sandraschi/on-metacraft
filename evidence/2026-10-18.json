@@ -1,0 +1,161 @@
+{
+ "date": "2026-10-18",
+ "repos": [
+  {
+   "repo": "storytold/filmcraft",
+   "created": "2026-09-30",
+   "pushed": "2026-10-18",
+   "stars": 14722,
+   "forks": 6130,
+   "description": "FilmCraft: An open-source, nonlinear video editor written by scratch in pure Rust",
+   "commits": 2015,
+   "releases": 10,
+   "first_release": "2026-10-02",
+   "latest_tag": "v0.9.0"
+  },
+  {
+   "repo": "storytold/lightcraft",
+   "created": "2026-09-30",
+   "pushed": "2026-10-18",
+   "stars": 13590,
+   "forks": 5164,
+   "description": "LightCraft: An open-source non-destructive photo editor written by scratch in pure Rust",
+   "commits": 2913,
+   "releases": 10,
+   "first_release": "2026-10-02",
+   "latest_tag": "v0.9.1"
+  },
+  {
+   "repo": "storytold/pdfcraft",
+   "created": "2026-09-30",
+   "pushed": "2026-10-18",
+   "stars": 15710,
+   "forks": 6070,
+   "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+   "commits": 1237,
+   "releases": 10,
+   "first_release": "2026-10-02",
+   "latest_tag": "v0.9.0"
+  },
+  {
+   "repo": "storytold/photocraft",
+   "created": "2026-09-30",
+   "pushed": "2026-10-18",
+   "stars": 67027,
+   "forks": 11767,
+   "description": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+   "commits": 2564,
+   "releases": 12,
+   "first_release": "2026-10-02",
+   "latest_tag": "v0.10.0"
+  },
+  {
+   "repo": "storytold/vectorcraft",
+   "created": "2026-09-30",
+   "pushed": "2026-10-18",
+   "stars": 9777,
+   "forks": 4760,
+   "description": "VectorCraft: An open-source, vector art tool written by scratch in pure Rust",
+   "commits": 4022,
+   "releases": 15,
+   "first_release": "2026-10-02",
+   "latest_tag": "v0.13.1"
+  },
+  {
+   "repo": "storytold/designcraft",
+   "created": "2026-10-01",
+   "pushed": "2026-10-18",
+   "stars": 4362,
+   "forks": 3019,
+   "description": "DesignCraft: An open-source page and layout design editor written by scratch in pure Rust",
+   "commits": 2595,
+   "releases": 10,
+   "first_release": "2026-10-02",
+   "latest_tag": "v0.9.0"
+  },
+  {
+   "repo": "storytold/effectcraft",
+   "created": "2026-10-01",
+   "pushed": "2026-10-18",
+   "stars": 7250,
+   "forks": 3856,
+   "description": "EffectCraft: An open-source motion graphics and compositing tool written by scratch in pure Rust",
+   "commits": 2060,
+   "releases": 12,
+   "first_release": "2026-10-02",
+   "latest_tag": "v0.11.1"
+  },
+  {
+   "repo": "storytold/cadcraft",
+   "created": "2026-10-07",
+   "pushed": "2026-10-18",
+   "stars": 5696,
+   "forks": 2546,
+   "description": "CADCraft: computer-aided design and drafting \u2014 an open-source, clean-room AutoCAD-style app in pure Rust",
+   "commits": 498,
+   "releases": 7,
+   "first_release": "2026-10-08",
+   "latest_tag": "v0.8.0"
+  },
+  {
+   "repo": "storytold/deckcraft",
+   "created": "2026-10-07",
+   "pushed": "2026-10-18",
+   "stars": 3746,
+   "forks": 2120,
+   "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+   "commits": 909,
+   "releases": 7,
+   "first_release": "2026-10-08",
+   "latest_tag": "v0.8.0"
+  },
+  {
+   "repo": "storytold/gridcraft",
+   "created": "2026-10-07",
+   "pushed": "2026-10-18",
+   "stars": 5682,
+   "forks": 2618,
+   "description": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
+   "commits": 1028,
+   "releases": 7,
+   "first_release": "2026-10-08",
+   "latest_tag": "v0.8.0"
+  },
+  {
+   "repo": "storytold/soundcraft",
+   "created": "2026-10-07",
+   "pushed": "2026-10-18",
+   "stars": 3224,
+   "forks": 2030,
+   "description": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
+   "commits": 692,
+   "releases": 6,
+   "first_release": "2026-10-08",
+   "latest_tag": "v0.8.0"
+  },
+  {
+   "repo": "storytold/wordcraft",
+   "created": "2026-10-07",
+   "pushed": "2026-10-18",
+   "stars": 14239,
+   "forks": 3756,
+   "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+   "commits": 859,
+   "releases": 7,
+   "first_release": "2026-10-07",
+   "latest_tag": "v0.8.0"
+  },
+  {
+   "repo": "storytold/figcraft",
+   "created": "2026-10-09",
+   "pushed": "2026-10-18",
+   "stars": 2561,
+   "forks": 958,
+   "description": "FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust",
+   "commits": 1157,
+   "releases": 7,
+   "first_release": "2026-10-10",
+   "latest_tag": "v0.7.0"
+  }
+ ]
+}
