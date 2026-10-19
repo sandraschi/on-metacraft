@@ -8,6 +8,18 @@
 - README + PRD + CONTRIBUTING + chapters I-X stubs with beats.
 - tools/ ported from on-hyperart (declaim, lorecheck, build_site, build_epub).
 
+## Unreleased (2026-10-18)
+
+- Chapter V living ledger: thirteen Crafts described in the project's
+  words; ArtCraft studio and Launcher split out; Goliath install dated;
+  ToS anti-clone clause refused as a threshold (Sandra 2026-10-18).
+- Chapter III: adhesive "do not observe I/O" terms are not a property
+  right; silence on suits re-dated 2026-10-18.
+- Chapter VI: CADCraft named as the liability exhibit; ToS kept off the
+  table.
+- Factual refresh: PhotoCraft stars/tag weather, Al Jazeera 2026-10-14,
+  Launcher v0.5.1.
+
 ## Unreleased (alpha, 2026-10-13)
 
 - Dated Opus reviews A-E; ASSESSMENT.md is a rolling index with opinion marking.

@@ -1,6 +1,6 @@
 # On MetaCraft - the reimplementation cost collapse
 
-**Status:** construction v0.1 (2026-10-13). Private. Audience: principals who
+**Status:** construction v0.1, ledger refresh 2026-10-18. Private. Audience: principals who
 buy, sell, insure or regulate professional software - not hobbyists.
 **Sister repos:** `on-hyperwar` (kinetic/strategic), `on-ai-takeover`
 (systemic/economic), `on-hyperart` (aesthetic). Same ladder method, same
