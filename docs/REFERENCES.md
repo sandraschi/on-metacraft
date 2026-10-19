@@ -1,6 +1,6 @@
 # References
 
-**Revision date:** 2026-10-13. Items marked `[verify]` were cited from
+**Revision date:** 2026-10-18. Items marked `[verify]` were cited from
 secondary sources or memory and need a primary source before v1.0.
 
 ## Primary: the subject
@@ -8,10 +8,16 @@ secondary sources or memory and need a primary source before v1.0.
 - storytold GitHub organization, repositories `photocraft`, `vectorcraft`,
   `filmcraft`, `lightcraft`, `pdfcraft`, `effectcraft`, `designcraft`,
   `wordcraft`, `gridcraft`, `deckcraft`, `soundcraft`, `cadcraft`,
-  `figcraft`, `craft-libs`, `craft-launcher`. GitHub API snapshot 2026-10-13.
-- PhotoCraft `README.md`, `AGENTS.md`, `ROADMAP.md` (last reviewed
-  2026-10-11).
-- getartcraft.com/apps, accessed 2026-10-13.
+  `figcraft`, `craft-libs`, `craft-launcher`, and `artcraft` (generative
+  studio, not a Crafting App). GitHub API snapshot 2026-10-13; public
+  pages re-checked 2026-10-18.
+- PhotoCraft `README.md`, `AGENTS.md`, `ROADMAP.md` (reviewed 2026-10-11;
+  README re-read 2026-10-18: MIT/Apache-2.0, alpha, not a daily
+  Photoshop replacement).
+- getartcraft.com/apps, accessed 2026-10-18: "Thirteen apps. One craft."
+- ArtCraft Launcher v0.5.1, GitHub release 2026-10-18T04:01:09Z.
+- Goliath machine check 2026-10-18: launcher binary, roaming app-data
+  for twelve of thirteen Crafts, PhotoCraft log 0.9.0 on 2026-10-15.
 
 ## Press
 
@@ -19,6 +25,12 @@ secondary sources or memory and need a primary source before v1.0.
   open source clones", Ars Technica, 2026-10-07.
 - Trending Topics, "Free Photoshop and Excel: A.I.-Built Clones Take On
   Adobe and Microsoft", 2026-10-12.
+- Edna Mohamed, "How AI apps are offering free substitutes for Big Tech
+  software", Al Jazeera, 2026-10-14.
+- Declic Media, "Photoshop cloned with Claude: is it legal?", accessed
+  2026-10-18 (ToS / trade-dress roundup; no public Adobe action found).
+- PetaPixel, "Someone Rebuilt Free, Open-Source Versions of Photoshop,
+  Premiere, and Lightroom Using AI", 2026-10-07.
 - OMG! Ubuntu, PhotographyTalk, Softonic, xenospectrum, WindowsForum,
   tbreak coverage, 2026-10 `[verify dates]`.
 

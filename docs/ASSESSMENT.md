@@ -1,6 +1,6 @@
 # Assessment - on-metacraft (rolling)
 
-**Last updated:** 2026-10-13. **Stage:** skeleton v0.1, 0/10 chapters real.
+**Last updated:** 2026-10-18. **Stage:** skeleton v0.1, 0/10 chapters real.
 
 Dated reviews live in `docs/REVIEW_<date>_<model>_<letter>_<topic>.md`.
 Never edit a review after its date; supersede it with a new one and note
@@ -22,7 +22,8 @@ reviewer's name (`> **GEMINI OPINION**`, `> **GROK OPINION**`).
 | 2026-10-13 | [D - Checking cost](REVIEW_2026-10-13_OPUS_D_CHECKING-COST.md) | Targets unbounded; checking cost sets the order; law stops defendants, not practices; compatibility beats familiarity | Current |
 | 2026-10-13 | [E - Physical ladder + MetaCraft](REVIEW_2026-10-13_OPUS_E_PHYSICAL-AND-METACRAFT.md) | Physical rungs ordered by test cost; MetaCraft L0-L4, L3 (agents build checkers) is the unlock; incumbent as test bench; 4 questions for Gemini | Answered by F |
 | 2026-10-13 | [F - Cross-model assessment](REVIEW_2026-10-13_GEMINI_F_CROSS_MODEL_ASSESSMENT.md) | Answers 4 questions; 6-rung physical ladder; L0-L4 formalization; oracle triangulation trap | Current |
-| 2026-10-13 | [Cursor (Grok 4.6) assessment](cursor-assessment-2026-10-13.md) | Thesis right (checking cost, dated breach); working notes stronger than chapters; Review F not yet absorbed | Current, independent |
+| 2026-10-13 | [Cursor (Grok 4.6) assessment](cursor-assessment-2026-10-13.md) | Thesis right (checking cost, dated breach); working notes stronger than chapters; Review F not yet absorbed | Week-two record; superseded as live brief by 2026-10-18 |
+| 2026-10-18 | [Cursor (Grok 4.6) assessment](cursor-assessment-2026-10-18.md) | World moved (PhotoCraft ~66.5k, v0.10.0, ToS/trade-dress weather); manuscript did not ingest F; Ch V snapshot frozen | Current, independent |
 
 ## Current thesis
 
@@ -41,6 +42,15 @@ and decaying patent surface.
 - Port 11026 registered in WEBAPP_PORTS.md; on-hyperart's collision resolved (assigned to 11156).
 - Refine Chapter VIII with the 6-rung physical ladder from Review F.
 - Refine Chapter IX with metamorphic testing and oracle triangulation trap analysis.
+
+## Stage at 2026-10-18
+
+Chapter V rewritten as a living ledger (thirteen Crafts described;
+ArtCraft studio split; Goliath install dated). Chapter III refuses
+anti-clone ToS as a threshold (Sandra: no-hoper). Chapter VI: CAD
+liability named; ToS kept off the table. Generated GitHub snapshot
+inside V is still 2026-10-13 until `just evidence` runs. Review F still
+not in Ch VIII/IX. Claims ledger still 27 open.
 
 ## Stage at 2026-10-13
 
