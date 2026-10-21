@@ -71,6 +71,10 @@ evidence *ARGS:
 # Print PDF, covers, EPUB validation, KDP packages (no upload)
 pdf *ARGS:
   @{{bk}} pdf {{ARGS}}
+
+# DesignCraft print edition (A4, facing pages, 3 mm bleed)
+print *ARGS:
+  @{{bk}} pdf --engine designcraft {{ARGS}}
 cover *ARGS:
   @{{bk}} cover {{ARGS}}
 validate:
