@@ -53,6 +53,8 @@ secondary sources or memory and need a primary source before v1.0.
 - Directive 2009/24/EC, Arts. 5(3), 6, 8.
 - *SAS Institute v. World Programming*, CJEU C-406/10 (2012-05-02).
 - *BSA v. Ministry of Culture*, CJEU C-393/09 (2010).
+- *A&M Records v. Napster*, 239 F.3d 1004 (9th Cir. 2001) `[verify]`.
+- *Enfish v. Microsoft*, 822 F.3d 1327 (Fed. Cir. 2016) `[verify]`.
 - EPO Board of Appeal T 208/84 *Vicom* (1986-07-15).
 - Adobe, Public Patent License for ISO 32000-1:2008.
 - Microsoft Open Specification Promise; SFLC analysis (2008).

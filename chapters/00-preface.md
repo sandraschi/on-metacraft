@@ -14,10 +14,11 @@ it is a living ledger, revised in place and dated at every revision.
 ## Two levels of authorship
 
 The first draft of the argument came from Gemini, in a chat chain, on
-2026-10-13. It is preserved word for word in `docs/GEMINI_DRAFT_2026-10-13.md`.
+2026-10-13. It is preserved word for word in Side - The Gemini First Draft,
+in this book.
 Claude Opus 5.5 reviewed it the same day, checked its claims against public
 repositories and press, and disagreed with parts of it. Those reviews are
-kept as dated files (`docs/REVIEW_*`), never edited after their date.
+kept as dated side chapters (Sides - Reviews A-F), never edited after their date.
 Sandra Schipal judges between the models and owns the text.
 
 This arrangement is not decoration. A book about software built by agent
@@ -42,7 +43,7 @@ liability, and a narrow, decaying band of patents.
   vendors from defended ones; that is analysis, not a trade.
 - It does not teach offensive technique. The same harness that clones a
   photo editor can be pointed at contested domains. The book names those
-  domains once, in a side file, at the level of institutions and
+  domains once, in Side - The Dark Mirror, at the level of institutions and
   governance only (Rule 2, `CONTRIBUTING.md`).
 
 ## How to read it

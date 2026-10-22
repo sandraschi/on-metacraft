@@ -25,6 +25,14 @@ order = [
   "09-metacraft.md",
   "10-physical-firewall.md",
   "side-dark-mirror.md",
+  "side-glossary.md",
+  "side-gemini-draft.md",
+  "side-review-a-gemini-draft.md",
+  "side-review-b-artcraft.md",
+  "side-review-c-patents.md",
+  "side-review-d-checking-cost.md",
+  "side-review-e-physical.md",
+  "side-review-f-cross-model.md",
 ]
 front_matter = ["00-preface.md"]
 expected = [
@@ -44,12 +52,6 @@ src = "REFERENCES.md"
 out = "references.html"
 label = "References"
 index_label = "References"
-
-[[docs]]
-src = "GLOSSARY.md"
-out = "glossary.html"
-label = "Glossary"
-index_label = "Glossary"
 
 [lore]
 forbidden = ["skynet", "terminator"]
