@@ -89,3 +89,7 @@ keepcurrent *ARGS:
 # Series dashboard across all books + port collision check
 series:
   @{{bk}} series
+
+# Word count per chapter vs 40k target
+words *ARGS:
+  @{{bk}} words {{ARGS}}
