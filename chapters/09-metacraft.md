@@ -41,6 +41,8 @@ an industry standard.
 | L3 | Agents build the checkers themselves | not yet evidenced in public |
 | L4 | The foundry improves its own method, rules and pipeline | not yet evidenced in public |
 
+![Foundry autonomy levels L0-L4: from humans write the code to the foundry improving its own method](fig/autonomy-ladder.svg)
+
 ## Why L3 matters most
 
 Chapters IV and VIII made one claim twice: agent synthesis scales as far

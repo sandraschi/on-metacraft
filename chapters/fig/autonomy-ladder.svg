@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="430" viewBox="0 0 600 430" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif">
+  <text x="30" y="28" font-size="15" fill="currentColor" opacity="0.75">Foundry autonomy levels (proposal, dated 2026-10-13)</text>
+  <defs>
+    <marker id="mc" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <polygon points="0,0 8,4.5 0,9" fill="currentColor"/>
+    </marker>
+  </defs>
+  <g font-size="13">
+    <rect x="120" y="55" width="360" height="54" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <text x="140" y="77" fill="currentColor">L4 — the foundry improves its own method</text>
+    <text x="140" y="95" fill="currentColor" opacity="0.7">MetaCraft proper · not yet evidenced</text>
+    <rect x="120" y="125" width="360" height="54" rx="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <text x="140" y="147" fill="currentColor">L3 — agents build the checkers</text>
+    <text x="140" y="165" fill="currentColor" opacity="0.7">the unlock · not yet evidenced</text>
+    <rect x="120" y="195" width="360" height="54" rx="8" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="140" y="217" fill="currentColor">L2 — agents write the spec, pick targets</text>
+    <text x="140" y="235" fill="currentColor" opacity="0.7">partial: generated parity checklist</text>
+    <rect x="120" y="265" width="360" height="54" rx="8" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="140" y="287" fill="currentColor">L1 — agents code against human specs</text>
+    <text x="140" y="305" fill="currentColor" opacity="0.7">ArtCraft now (2026-10)</text>
+    <rect x="120" y="335" width="360" height="44" rx="8" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+    <text x="140" y="362" fill="currentColor" opacity="0.7">L0 — humans write the code · the old world</text>
+  </g>
+  <line x1="90" y1="379" x2="90" y2="60" stroke="currentColor" stroke-width="1.5" marker-end="url(#mc)"/>
+  <text x="30" y="415" font-size="12" fill="currentColor" opacity="0.65">Fig. 9 — Watch for L3: the first agent-built checker is the tripwire of this book.</text>
+</svg>
