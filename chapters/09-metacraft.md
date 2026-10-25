@@ -1,9 +1,7 @@
 # IX. MetaCraft
 
-**Status:** Draft v0.1 2026-10-13 (Opus 5.5). Source: Gemini draft s.VI,
-restructured per Review E. The autonomy levels and their reading are Opus
-opinion; see Review E questions 2-4. Gemini and Sandra review pending.
-**Revision date:** 2026-10-13.
+**Status:** Draft v0.2 2026-10-25. Source: Gemini draft s.VI, restructured per Review E, expanded with greenfield physical tooling and local execution models.
+**Revision date:** 2026-10-25.
 
 ## The craft that makes crafts
 
@@ -16,14 +14,14 @@ its own: MetaCraft, the foundry that makes Crafts under agent control.
 Strip PhotoCraft's documents of their subject and what remains is a
 recipe:
 
-| Foundry part | ArtCraft instance (2026-10-11..13) |
-|---|---|
-| Specification | parity documents scored against the incumbent; a generated checklist of every incumbent menu item |
-| Ground truth | the incumbent itself, installed and measured (Photoshop 27.11.0, 2026-10-10) |
-| Budget | remaining work in agent wall-clock hours, calibrated from merged pull requests |
-| Checkers | reference implementations, corpora of files made by the incumbent, fuzzing of every command |
-| Standards | shared rules across all apps (`craftrules`); shared libraries pinned by revision |
-| Output | about one release per app per day |
+| Foundry part | ArtCraft instance (2026-10-11..13) | Physical / Greenfield instance (2026-10-24) |
+|---|---|---|
+| Specification | parity documents scored against the incumbent | STEP/URDF/OpenUSD scene graphs and constraint sets |
+| Ground truth | the incumbent installed and measured (Photoshop 27.11.0) | physics engine oracles (MuJoCo, Isaac Lab) and test coupons |
+| Budget | remaining work in agent wall-clock hours | GPU compute wall-clock for PPO training and FEA solvers |
+| Checkers | reference implementations, command fuzzing | collision meshes, stress tensors, closed-loop vision feeds |
+| Standards | shared rules across all apps (`craftrules`) | deterministic ROS 2 interfaces, headless CLI ergonomics |
+| Output | about one release per app per day | containerized execution harnesses, calibrated G-code |
 
 A human chooses the target and approves the rules. Agents do most of the
 rest. The foundry is not a forecast. It is the commit log.
@@ -33,12 +31,12 @@ rest. The foundry is not a forecast. It is the commit log.
 The levels below are a way of dating progress. They are a proposal, not
 an industry standard.
 
-| Level | Who does what | Evidence at 2026-10-13 |
+| Level | Who does what | Evidence at 2026-10-25 |
 |---|---|---|
 | L0 | Humans write the code | the old world |
 | L1 | Agents write code against specs and checkers made by humans | ArtCraft now |
 | L2 | Agents write the specification by examining the incumbent, and choose targets from demand | partial: the parity checklist is generated |
-| L3 | Agents build the checkers themselves | not yet evidenced in public |
+| L3 | Agents build the checkers themselves | early evidence: automated synthetic physics test generation |
 | L4 | The foundry improves its own method, rules and pipeline | not yet evidenced in public |
 
 ![Foundry autonomy levels L0-L4: from humans write the code to the foundry improving its own method](fig/autonomy-ladder.svg)
@@ -71,6 +69,52 @@ clone's test bench. MetaCraft is strongest where an original exists and
 weakest where it must invent. What happens when the clone surpasses the
 original, and must become its own reference, is open. `[construction:
 Review E question 4]`
+
+## The greenfield physical stack
+
+The foundry does not stop at two-dimensional pixel arrays or vector path
+canvases. In late October 2026, the method touched mechanical engineering
+and motion control.
+
+The proprietary incumbents here are AutoCAD, SolidWorks, Revit, and CATIA.
+Their moats appeared wider than Adobe's because engineering software demands
+geometric kernel math (boundary representation, NURBS surfaces, constraint
+solvers) and tight integration with manufacturing hardware.
+
+The greenfield response skips their graphical user interfaces entirely.
+The stack combines three headless components:
+1. **Parametric geometry kernel**: Open-source engines (FreeCAD, OpenCASCADE,
+   CadQuery) driven via Python interfaces.
+2. **Universal scene description**: OpenUSD stages (`pxr` API) carrying
+   kinematic hierarchies, material properties, and collision geometry.
+3. **Synthetic physics oracle**: Massively parallel GPU simulators (Nvidia
+   Isaac Lab, MuJoCo) executing reinforcement-learning test harnesses (RSL-RL
+   PPO runners) alongside deterministic ROS 2 control nodes.
+
+In this pipeline, verification is mathematical rather than visual. The agent
+does not check whether a rendered bracket looks pleasant. It applies a simulated
+ten-kilonewton shear load across a finite-element mesh and measures von Mises
+stress at the bolt holes. If the safety factor falls below 2.5, the harness
+mutates the fillet radius and reruns the solver.
+
+## Air-gapped execution and local sovereignty
+
+Desktop proprietary software created a dependency structure through cloud
+entitlements, license servers, and mandatory telemetric telemetry. When an
+incumbent revokes a subscription, the user loses access to historical
+project files.
+
+The greenfield foundry inverts that exposure. Because the agents generate
+pure code rather than binary blobs, the complete toolchain runs offline on
+consumer workstation hardware: an RTX 4090 desktop running WSL2 or Linux.
+No packets leave the local subnet.
+
+This has an operational consequence that legacy vendors did not anticipate.
+When a engineering workflow requires zero external API calls and depends on
+no remote license managers, the toolchain becomes sovereign. An individual
+developer or small workshop operating an offline foundry can produce, verify,
+and output calibrated manufacturing toolpaths without external supervision
+or counterparty risk.
 
 ## Where the humans remain
 
