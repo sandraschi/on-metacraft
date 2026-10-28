@@ -24,6 +24,24 @@ and the attachment points that apply.
 Weapons autonomy is the subject of the sister book `on-hyperwar`, which
 owns that domain under its own hazard rule. This book defers to it.
 
+## The 2026 shift: automated reverse engineering and scaffolding CVEs
+
+Six months after the spring 2026 Mythos security demonstrations, the labor cost
+of binary analysis and vulnerability discovery underwent the same collapse as
+desktop application development:
+
+1. **The Reverse Engineering Tsunami:** Tools automating Ghidra and IDA Pro
+   via MCP bridges (the fleet's `reversing-mcp`, Rea.ai) synchronized white-box
+   decompilation with behavior clickthroughs. Proprietary binary formats,
+   legacy PE internals, and closed protocols no longer require months of human
+   disassembly; agents extract functional specifications and feature-to-code
+   maps in hours. Binary obscurity is no longer a moat.
+2. **Scaffolding Under Continuous Audit:** Automated CVE discovery accelerated
+   sharply against foundational software scaffolding. Runtimes historically
+   defended by ubiquity (such as PHP interpreters) and low-level roots of
+   trust (UEFI firmware) now face automated vulnerability synthesis faster than
+   human security teams can write, test, and distribute patch advisories.
+
 ## The pattern
 
 In each domain the binding constraint is the same as in Chapter VI:

@@ -19,7 +19,7 @@ For three decades, the proprietary software empire rested on a foundational lie:
 
 The moats were never fundamental laws of physics. They were operational friction, accumulated UI quirks, Byzantine binary file specifications, and the sheer cognitive exhaustion required to wire graphical user interfaces to linear algebra by hand.
 
-The arrival of the ArtCraft suite—expanding rapidly from an initial strike against Adobe into a twelve-app ecosystem spanning both creative media and office suites (PhotoCraft through DeckCraft)—marks the moment the hull was breached below the waterline.
+The arrival of the ArtCraft suite - expanding rapidly from an initial strike against Adobe into a twelve-app ecosystem spanning both creative media and office suites (PhotoCraft through DeckCraft) - marks the moment the hull was breached below the waterline.
 
 Born not from a venture-backed startup in Silicon Valley, but from an experienced developer directing frontier reasoning models through autonomous scaffolding harnesses, the suite demonstrated the core reality of modern code synthesis: software moats are illusions held together by the high cost of manual human keystrokes.
 
@@ -64,13 +64,13 @@ ArtCraft is not a set of clones; it is an architectural paradigm shift. It compl
 
 The macro-economic landscape financing this revolution is defined by the tension between Wall Street balance sheets and physical thermodynamics.
 
-The prevailing narrative claims that the multi-trillion-dollar datacenter buildout is the greatest capital misallocation in human history—doomed by short GPU amortization cycles and falling API pricing. This narrative confuses GAAP accounting depreciation with physical operational utility:
+The prevailing narrative claims that the multi-trillion-dollar datacenter buildout is the greatest capital misallocation in human history - doomed by short GPU amortization cycles and falling API pricing. This narrative confuses GAAP accounting depreciation with physical operational utility:
 
 * **Silicon Does Not Rot:** A GPU rack in a climate-controlled, positive-pressure hall does not decay on day 1,461 because a corporate accountant wrote its book value down to zero.
 * **The Zero-Debt Advantage:** While frontier models chasing ultra-low latency demand next-generation silicon carrying staggering capital debt service, yesterday's "Colossus" clusters transition into fully amortized, debt-free computational workhorses.
-* **The Steam Turbines of Inference:** When electricity is bought at industrial rates, older hardware (H100, A100) running unconstrained overnight batch inference—generating synthetic data, fuzzing software states, or compiling whole codebases—operates at near-zero marginal cost.
+* **The Steam Turbines of Inference:** When electricity is bought at industrial rates, older hardware (H100, A100) running unconstrained overnight batch inference - generating synthetic data, fuzzing software states, or compiling whole codebases - operates at near-zero marginal cost.
 
-Just as the 2001 telecom crash left behind a planetary network of "Dark Fiber" that subsidized the modern web, the datacenter buildout leaves behind Dark Megawatts and Amortized Silicon. The venture investors may be liquidated, but the physical compute fabric remains humming—ready to power endless swarms of autonomous code-synthesis engines.
+Just as the 2001 telecom crash left behind a planetary network of "Dark Fiber" that subsidized the modern web, the datacenter buildout leaves behind Dark Megawatts and Amortized Silicon. The venture investors may be liquidated, but the physical compute fabric remains humming - ready to power endless swarms of autonomous code-synthesis engines.
 
 ### IV. The Lineage of the Great Mechanizers
 
@@ -80,7 +80,7 @@ The destruction of artisanal and corporate software monopolies is simply the lat
 |---|---|---|
 | Joseph Marie Jacquard (1804) | The master Lyon silk-weaving guilds | Binary punch cards proving complex aesthetic patterns are executable code. |
 | Henry Ford (1913) | Bespoke carriage-maker cartels | Standardized tolerances and the moving physical assembly line. |
-| Geoffrey Hinton (1986–2012) | Hand-crafted symbolic linguistic rulebooks | Backpropagation and statistical gradient descent across uncurated data. |
+| Geoffrey Hinton (1986-2012) | Hand-crafted symbolic linguistic rulebooks | Backpropagation and statistical gradient descent across uncurated data. |
 | Jensen Huang | General-purpose scalar compute (CPUs) | SIMD matrix engines and high-bandwidth interconnects powering industrial-scale parallelism. |
 | Dario Amodei | Unconstrained statistical chaos | Constitutional scaffolding and institutional statecraft attempting to direct frontier models. |
 | The Solo Synthesizer (The Iceberg) | The enterprise SaaS software oligopoly | High-inference agent harnesses transforming public software specifications into zero-cost open code. |
