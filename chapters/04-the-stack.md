@@ -121,6 +121,23 @@ bypasses no encryption, and triggers no anti-circumvention provisions under
 17 U.S.C. s.1201. The incumbent is not disassembled; it is simply observed
 by an entity that does not blink.
 
+## Reversing as the daughter of coding
+
+The reversing revolution is not an independent technical event. It is the
+next rung of the coding revolution.
+
+When an agent can synthesize complex, multi-threaded systems software in
+seconds, reverse engineering ceases to be a manual crawl through hex dumps.
+The agent approaches binary analysis as an inverse compilation problem:
+it inspects header signatures, writes an ad-hoc Rust unpacker in twenty
+seconds, executes it against the binary, observes where the decompression
+fails, fixes the offset, and runs it again.
+
+The 100-gigabyte game archive or encrypted firmware blob that defeated
+human teams through sheer volume is trivialized by this loop. An agent does
+not drown in data because it generates the machinery to process the data
+on the fly. Forward code synthesis makes inverse code synthesis cheap.
+
 ## The rules agents follow
 
 The code rules read like a contract written for machines:

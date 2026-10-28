@@ -57,6 +57,15 @@ The useful split is not by size or sector but by where the moat sits.
 - **Exposed:** vendors whose moat is the application itself: its
   interface, its features, its file format. Desktop creative tools,
   standalone office applications, single-user design and audio tools.
+  Above all: **the AAA video game and console industry**. For decades,
+  game publishers assumed a 100-gigabyte encrypted blob of proprietary
+  chunks and obscure shader bytecodes was unassailable by a hobbyist team.
+  To twenty humans in a Discord server, that volume was a fortress.
+  To a frontier agent, it is an afternoon: the agent does not read
+  the gigabytes into its prompt; it writes purpose-built, multi-threaded
+  Rust decoders and entropy sniffers on the fly, compiles them, and
+  slices through the archive like a heated knife through butter. The entire
+  single-player client catalog is exposed.
 - **Defended:** vendors whose moat is a network, a bundle, data, a
   certification or a liability. Enterprise suites with identity and
   compliance attached; accounting with bank feeds and tax filing;
