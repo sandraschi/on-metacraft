@@ -24,6 +24,7 @@ The ladder is ordered by them.
 
 | Rung | Domain | Physical check | Cost per check |
 |---|---|---|---|
+| 0 | Code itself (the solved baseline) | compiler, linter, test suite | fractions of a cent, milliseconds |
 | 1 | Machine embroidery, home cutting | stitch-out or cut on scrap | cents, minutes, at a kitchen table |
 | 2 | Machine knitting | a swatch | small |
 | 3 | Electrochemical and spark machining (ECM/EDM) | bore or cut on scrap stock | dollars, minutes to hours |
@@ -31,6 +32,22 @@ The ladder is ordered by them.
 | 5 | Kinematic assembly and tacit mechanics | 3D-printed jig or test rig | tens of dollars, camera-in-the-loop |
 | 6 | Agriculture | a growing season | a year |
 | 7 | Chips | a tape-out | millions |
+
+## Rung 0: code as the solved baseline
+
+The ladder begins at zero because coding had to fall before any other craft
+could be attacked.
+
+In software, the material and the tool exist in the same medium. A compiler
+either accepts a type or rejects it; a test suite either passes or fails.
+The cost of an oracle check in code is a CPU cycle. Because verification cost
+in software was effectively zero, programming was the first craft to collapse
+into superhuman agent throughput. Between 2023 and 2025, AI coding was an
+industry punchline; in 2026, it became the mechanizer for every trade above
+it.
+
+Every physical rung that follows depends on Rung 0: software must be solved
+before software can drive physical machines.
 
 ## Rung 1: needle and blade
 
@@ -132,6 +149,22 @@ Chip-design tools are the most expensive case, covered in Review D. The
 check is a foundry run that costs millions and the tools only count once a
 foundry certifies them. Lawyers do not protect this rung. Physics and
 the foundry do.
+
+## Rung 8: the biological test coupon (vibe genes and the assay wall)
+
+Functional protein and genome design joined the collapse in late 2026
+(Timmer, *Ars Technica*, 2026-10-28; *Pinal* and Hugging Face genomic
+models). Prompt-driven natural language compiles directly into candidate
+nucleotide and amino acid sequences: "vibe coding" applied to biology.
+The design software moat collapsed overnight.
+
+What remains is the purest form of the physical firewall. An agent can
+generate ten thousand fluorescent protein candidates before lunch, but the
+check is a physical wet-lab synthesis and optical assay. Over 99 percent of
+prompted sequences fail to fold or express in vitro. The binding constraint
+is neither the model nor the software: it is the cycle time of liquid-handling
+robots, the cost of biological reagents, and the compliance screening
+imposed by DNA synthesis providers.
 
 ## Where the moat goes
 

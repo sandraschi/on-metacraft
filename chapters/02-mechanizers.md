@@ -73,6 +73,13 @@ implementation the agents can test against, a budget in agent-hours, and
 a swarm of model instances writing code in parallel. Chapter I dates its
 public arrival to 2026-09-30.
 
+The trade it mechanizes is programming itself. Between 2023 and 2025,
+AI coding was an industry joke: autocomplete snippets that hallucinated
+libraries, broke on multi-file refactors, and required constant human
+correction. In 2026, agentic harnesses with closed compiler feedback loops
+crossed into superhuman speed and consistency. The craft of software
+construction became the first solved trade.
+
 The monopoly it breaks is the labor cost of reimplementation. The guild
 defense has already been mounted: the clones are buggy, incomplete, alpha.
 All three are true on day thirteen.

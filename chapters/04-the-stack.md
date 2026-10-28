@@ -81,6 +81,46 @@ that an agent touches has one.
 Rule, stated once here and used for the rest of the book: **agent
 synthesis scales exactly as far as cheap verification reaches.**
 
+## The black-box oracle: screen-only extraction
+
+The oracle described above assumes the incumbent sits on the same disk:
+an installed binary whose file formats and memory buffers can be inspected.
+What happens when the incumbent cannot be inspected at all -- when the target
+runs on locked console silicon in Yokohama or inside an encrypted cloud data
+center?
+
+The answer is the screen-only oracle.
+
+An application or game running in a zero-trust enclave still has to emit
+photons to a screen and sound waves to an audio device in response to user
+inputs. An autonomous agent can drive that interface through standard input
+queues, recording video at 120 frames per second. After a billion input-frame
+pairs, the black box yields its secrets without a single byte of machine
+code being decompiled:
+
+1. **Kinematics via symbolic regression.** By stepping a character through
+   jumps, collisions, and slopes, pixel velocities are tracked frame-by-frame.
+   Symbolic regression fits the exact gravity constants, acceleration parabolas,
+   and collision boundaries.
+2. **State machines via automated traversal.** Every menu branch, dialog tree,
+   hit confirm, and inventory transition is mapped as a directed state graph:
+   $$\text{State}_t + \text{Input}_t \longrightarrow \text{State}_{t+1}$$
+3. **Geometry via inverse rendering.** A camera traversing a virtual space
+   captures dense multi-view footage. Neural radiance fields (NeRFs) and 3D
+   Gaussian Splatting reconstruct collision meshes, polygon geometry, and
+   PBR textures directly from the video stream.
+4. **Audio demixing.** Real-time neural separation isolates sound effects,
+   dialogue, and score stems.
+
+The output can be synthesized into a deterministic Rust/Vulkan engine, or
+loaded into a real-time generative world model (the path demonstrated by
+Google's GameNGen and Decart's Oasis in late 2024).
+
+This is the cleanest clean room in software history. It touches no memory,
+bypasses no encryption, and triggers no anti-circumvention provisions under
+17 U.S.C. s.1201. The incumbent is not disassembled; it is simply observed
+by an entity that does not blink.
+
 ## The rules agents follow
 
 The code rules read like a contract written for machines:

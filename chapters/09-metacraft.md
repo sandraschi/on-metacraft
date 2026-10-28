@@ -9,6 +9,12 @@ Thirteen applications in two weeks is not thirteen projects. It is one
 method run thirteen times. This chapter names the method as an object of
 its own: MetaCraft, the foundry that makes Crafts under agent control.
 
+It exists because coding was the first solved craft. Once the craft of
+writing software crossed into superhuman speed and consistency in 2026,
+software engineering ceased to be an artisan bottleneck and became an
+automated instrument of production. MetaCraft is what happens when that
+solved craft is directed systematically at every other trade.
+
 ## The foundry already exists
 
 Strip PhotoCraft's documents of their subject and what remains is a
