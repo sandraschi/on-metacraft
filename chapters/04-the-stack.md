@@ -137,6 +137,9 @@ The 100-gigabyte game archive or encrypted firmware blob that defeated
 human teams through sheer volume is trivialized by this loop. An agent does
 not drown in data because it generates the machinery to process the data
 on the fly. Forward code synthesis makes inverse code synthesis cheap.
+(Side - Two Hours of Digibib5 records a concrete instance on this machine:
+twenty years of German CD-ROM container obscurity dissolved by Claude Opus
+in 120 minutes.)
 
 ## The rules agents follow
 
