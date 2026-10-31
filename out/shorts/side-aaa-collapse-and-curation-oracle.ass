@@ -1,0 +1,20 @@
+[Script Info]
+Title: On MetaCraft - Short
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Arial,68,&H00FFFFFF,&H000000FF,&H00000000,&H90000000,1,0,0,0,100,100,0,0,1,4,0,2,80,80,380,1
+Style: Header,Consolas,34,&H003CBEFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,2,0,1,0,0,8,80,80,240,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:37.53,Header,,0,0,0,,ON METACRAFT
+Dialogue: 1,0:00:00.00,0:00:11.22,Main,,0,0,0,,The instinct of the 20th-century artisan or patent attorney is to play it close to the chest: keep the trade secret, hide the repo, register the copyright, hoard the prompt.
+Dialogue: 1,0:00:11.27,0:00:16.82,Main,,0,0,0,,In October 2026, that instinct is a corpse that has not realized it stopped breathing.
+Dialogue: 1,0:00:16.87,0:00:20.80,Main,,0,0,0,,Frontier models have flattened the global cognitive gradient.
+Dialogue: 1,0:00:20.85,0:00:34.09,Main,,0,0,0,,The knowledge required to make a spatial compiler, reverse an engine blob, or synthesize a living game world is not proprietary; it was already trained into the weights of Gemini, Claude, and their peers.
+Dialogue: 1,0:00:34.14,0:00:37.53,Main,,0,0,0,,What was missing was only the harness and the hands.
