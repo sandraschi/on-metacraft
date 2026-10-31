@@ -90,6 +90,10 @@ keepcurrent *ARGS:
 series:
   @{{bk}} series
 
+# Vertical 9:16 video short (YouTube Shorts / TikTok / Reels)
+short FILE *ARGS:
+  @{{bk}} short {{FILE}} {{ARGS}}
+
 # Word count per chapter vs 40k target
 words *ARGS:
   @{{bk}} words {{ARGS}}
