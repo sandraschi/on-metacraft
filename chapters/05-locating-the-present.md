@@ -113,6 +113,24 @@ commentary clusters on trade dress, names, and patents, not on copyright
 of menus. See Chapter III on why an EULA "do not observe I/O to clone"
 clause is not treated as an attachment point.
 
+## Under construction: GameCraft (local, 2026-10-29) [construction]
+
+Not public, not in storytold org, no HN post yet. Local repo
+D:\Dev\repos\gamecraft, pure Rust workspace: gamecraft-core,
+gamecraft-commands, gamecraft-godot, gamecraft-mcp, gamecraft-cli,
+gamecraft-desktop (placeholder until Phase 4).
+
+Status 2026-10-29: cargo check clean, cargo test 28 passed 0 failed
+(core 12, commands 4, godot 5, smoke 2, mcp 5), clippy clean, fmt clean.
+Sample fixture tests/fixtures/sample_3d_world.tscn carries intentional
+traps (RigidBody3D without shape, dangling signal target).
+
+Rule for this entry: no storytold move, no HN note until Phase 5 depot
+gate holds - twelve playable Godot 4.3 exports under
+depot/games/<slug>/ with lint.json zero errors, trace.json win reachable,
+headful 60s clean. See PLAN-phase5-depot.md in gamecraft repo and
+side-red-letter-october-2026.md in this book.
+
 ## Pending rows
 
 - Reddit request for an AutoCAD clone: `[construction: thread URL + date;

@@ -38,4 +38,14 @@
   clone, which may only rise (Ch IV).
 - **Switching cost** - the time a trained user loses moving to a program
   that works differently; the moat the clones attack (Ch III).
+- **Chutzpah** - nerve, gall, outrageous confidence. The leapfrog claim
+  "we will reimplement your thirty-year moat over lunch" stated plainly.
+  Used sparingly, where English needs a paragraph (Oct 2026 sidecars).
+- **Kibitz** - to offer commentary from the sidelines while someone else
+  does the work. The KIBITZ.md side-channel in build repos: async,
+  invited, timestamped, pull-based. No shoulder-surfing.
+- **Schlep** - to drag or haul with difficulty, and the dragged load
+  itself. What agents remove: the exhaustion tax of sifting hundred-gig
+  archives by hand. The tooling synthesizes the extractor, the human stops
+  schlepping bytes.
 - **`[construction]`** - asserted, not yet evidenced. Required flag.

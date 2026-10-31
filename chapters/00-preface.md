@@ -56,6 +56,22 @@ autonomy ladder. Chapter X sets the physical limits.
 Every unverified claim carries a `[construction]` flag. A chapter with no
 flags left is a finished chapter. At 2026-10-13 there are none.
 
+## Two falls
+
+I witnessed the fall of communism in Prague. I walked up to Hradcany, to
+Hradcanske namesti in front of Prague Castle and St. Vitus Cathedral, on
+a winter night when a million people in the city below chanted freedom,
+freedom. The square before the presidential palace was completely empty.
+I thought great thoughts. I was elated. A column of military trucks came
+up, armored carriers appeared, drove the length of the square, turned,
+rolled past me. The soldiers looked at me, I looked at them. Nobody shot
+me. One of the great moments of my life.
+
+I am witnessing the second great fall now. Then it was a monopoly on
+power that looked permanent until it was not. Now it is a monopoly on
+expertise that looked permanent until it is not. This book is written
+from inside that second fall.
+
 ## Fleet link
 
 The sister books (`on-ai-takeover`, `on-hyperwar`, `on-hyperart`) use the
