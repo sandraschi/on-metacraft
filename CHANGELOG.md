@@ -1,5 +1,18 @@
 # Changelog - on-metacraft
 
+## Unreleased (2026-10-29)
+
+- Added new philosophical sidecar: `chapters/side-aaa-collapse-and-curation-oracle.md`
+  (covers the Bangalore Co-Discovery Axiom, the collapse of the $200M AAA capital moat,
+  human attention as the time-locked verifier, Curation Oracles, and the Zen resolution in Mu 無).
+  Word count reached 24,607 words across 24 chapters.
+- Full DesignCraft publishing run: generated 120-page A4 print PDF (`out/on-metacraft.pdf`),
+  complete with recto chapter openers, running heads, folios, and 120 equalised table columns.
+- Rebuilt static HTML reader site (27 docs) and EPUB (`site/on-metacraft.epub`, 165.8 KB).
+- Added `just short` workflow (`bookkit/shorts.py`) for automated 9:16 vertical video shorts;
+  rendered first pilot short: `out/shorts/side-aaa-collapse-and-curation-oracle_9x16.mp4`.
+
+
 ## v0.1 (2026-10-13) - skeleton
 
 - Gemini first draft archived verbatim (`docs/GEMINI_DRAFT_2026-10-13.md`).
