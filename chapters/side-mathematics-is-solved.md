@@ -144,10 +144,33 @@ two open problems in gravitational physics: computing the Hawking-Page phase
 transition at weak coupling and establishing an analytic bound on the
 spinless modular bootstrap in conformal field theory.
 
-In observational astronomy, generative inference models (GenDIReCT) filtered
-atmospheric noise to independently validate the Event Horizon Telescope's
-M87* black hole silhouette, while ALMA dynamical measurements mapped 6.5
-billion solar-mass black hole orbits dating back 12 billion years.
+### Observational Astronomy: From Plate Blinking to Real-Time Actuation
+The same transition reshaped observational astrophysics. For decades, computer
+analysis of sky surveys relied on rigid, threshold-based heuristics: flag any
+pixel whose magnitude shifted between two epochs. The result was a deluge of
+false positives -- millions of predictable Cepheid variables, eclipsing binaries,
+and atmospheric artifacts that required human teams to manually triage.
+
+SOTA astronomical foundation models inverted this process through latent anomaly
+detection. Trained on petabytes of multi-wavelength streams (Gaia, ZTF, and the
+Vera C. Rubin Observatory's ten million alerts per night), the models learn the
+manifold of normal stellar variability. They ignore predictable pulsations and
+isolate genuine physical out-of-distribution events: tidal disruption events,
+kilonova signatures, and supernova shock breakouts.
+
+Crucially, the loop between discovery and actuation has collapsed. Where a
+human observation proposal once took days -- long after the critical early-flash
+photons had faded -- autonomous broker agents evaluate the anomaly and trigger
+immediate Target-of-Opportunity (ToO) interrupts. An alert generated in a wide-field
+sky survey commands James Webb, Hubble, or ALMA to slew and focus within minutes,
+capturing the transient before the physical evidence dissipates. (Parallel to
+this, generative inference models like GenDIReCT filtered atmospheric noise to
+independently validate the Event Horizon Telescope's M87* black hole silhouette,
+while ALMA dynamical measurements mapped 6.5-billion-solar-mass black holes
+dating back 12 billion years.)
+
+The telescope network has transitioned from a passive photographic archive
+into an autonomous, closed-loop sensory reflex.
 
 Theoretical physics is the frontier where mathematics touches the universe.
 Because its foundational statements are written in the language of gauge
