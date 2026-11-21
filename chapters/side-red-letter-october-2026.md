@@ -17,7 +17,7 @@ was already in weights. What was missing was hands.
 For the record of this book:
 
 - First solved craft was coding.
-- Second craft is math.
+- Second craft is math (fulfilled 2026-11-20 via the Alpoge/Claude Lean 4 proof of GRH; see Side - November 2026 -- Mathematics as the Second Solved Craft).
 - Third craft is physics.
 - With secondary crafts: reversing and game making.
 
