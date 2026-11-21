@@ -117,24 +117,67 @@ Once coding fell, math was mathematically guaranteed to be next.
 
 ---
 
-## 5. The Horizon: Toward the Third Craft
+## 5. The Bleed into Theoretical Physics: Yang-Mills, QCD, and Black Holes
 
-With coding solved (Rung 0) and pure mathematics solved (Rung 0b), the
-boundary shifts decisively toward the physical world.
+The mechanization of mathematics did not stay confined to number theory.
+In the same month, it broke directly into the foundations of theoretical
+physics.
 
-Pure mathematics was defended by abstract complexity. But abstract complexity
-is merely deep computation, and deep computation dissolves before frontier
-inference.
+### Quantum Chromodynamics (QCD) and 4D Yang-Mills
+At the end of October and into November 2026, OpenAI published a machine-checked
+formalization in Lean 4 (spanning one million lines of proof code) addressing
+the mathematical foundations of 4-dimensional Quantum Yang-Mills theory and
+Quantum Chromodynamics (QCD).
 
-The third craft is **physics** -- simulation, kinematics, fluid dynamics, and
-material properties. Where mathematics had Lean as its verifier, physics has
-MuJoCo, Isaac Lab, and finite-element solvers.
+An independent review committee chaired by Nobel laureate David Gross,
+alongside Arthur Jaffe and Michael Douglas, audited the code:
+- The Lean proof established the mathematical existence of pure 4D
+  Yang-Mills theory and its fermionic extensions as a rigorous continuum
+  scaling limit of Wilson lattice gauge theory.
+- While the second half of the Millennium Problem -- proving the physical
+  mass gap ($\Delta > 0$) -- remained open, the proof resolved the decades-old
+  challenge of constructive 4D quantum gauge theory existence.
+
+### Black Hole Physics and the Modular Bootstrap
+Simultaneously, autonomous reasoning agents deployed at Anthropic solved
+two open problems in gravitational physics: computing the Hawking-Page phase
+transition at weak coupling and establishing an analytic bound on the
+spinless modular bootstrap in conformal field theory.
+
+In observational astronomy, generative inference models (GenDIReCT) filtered
+atmospheric noise to independently validate the Event Horizon Telescope's
+M87* black hole silhouette, while ALMA dynamical measurements mapped 6.5
+billion solar-mass black hole orbits dating back 12 billion years.
+
+Theoretical physics is the frontier where mathematics touches the universe.
+Because its foundational statements are written in the language of gauge
+groups, fiber bundles, and differential manifolds, it inherits the Lean
+verifier directly. When the mathematical grammar of quantum field theory is
+compiler-checked, theoretical physics accelerates from the pace of academic
+monographs to the speed of git commits.
+
+---
+
+## 6. The Horizon: Where Physics Meets Matter
+
+With coding solved (Rung 0), pure mathematics solved (Rung 0b), and
+theoretical physics formalized in Lean, the boundary shifts decisively
+toward the physical world.
+
+Pure mathematics and theoretical models were defended by abstract
+complexity. But abstract complexity is merely deep computation, and deep
+computation dissolves before frontier inference.
+
+The physical frontier of the third craft is **applied physics** --
+simulation, kinematics, fluid dynamics, and material properties. Where
+theoretical physics had Lean as its verifier, applied physics has MuJoCo,
+Isaac Lab, and finite-element solvers.
 
 The progression of MetaCraft remains strictly ordered by the price of the
 oracle:
 - **Code:** Verifier is `cargo check` (CPU milliseconds, free).
-- **Math:** Verifier is `lean --check` (CPU seconds, free).
-- **Physics:** Verifier is GPU tensor simulation (GPU minutes, cents).
+- **Math & QFT:** Verifier is `lean --check` (CPU seconds to hours, free).
+- **Physics Sim:** Verifier is GPU tensor simulation (GPU minutes, cents).
 - **Matter:** Verifier is the physical test coupon, the CNC cut, the wind
   tunnel, and the chemical assay (days, dollars).
 
