@@ -166,6 +166,14 @@ is neither the model nor the software: it is the cycle time of liquid-handling
 robots, the cost of biological reagents, and the compliance screening
 imposed by DNA synthesis providers.
 
+Beyond in vitro assays sits the ultimate time lock: staged human clinical
+trials. An agent can generate a targeted small-molecule inhibitor or bispecific
+antibody in an afternoon, but proving systemic safety and overall survival in
+human pancreatic or small cell lung cancer currently demands five years of
+sequential phase progression. The terminal patient does not have five years.
+(See Side - The Clinical Trial Wall for the five vectors compressing the
+regulatory calendar.)
+
 ## Where the moat goes
 
 When the design software is free, lock-in moves to the machine maker:
