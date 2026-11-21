@@ -1,0 +1,76 @@
+#!/bin/sh
+# commit-msg: refuse a commit that deletes documentation content without approval.
+# Born from the 2026-11-20 README sweep, which "standardized" 11 READMEs and silently
+# deleted their project descriptions, status sections and warnings.
+#
+# A staged Markdown file is checked against its HEAD version. The commit is blocked when:
+#   - a tracked .md file is deleted, or
+#   - 15 or more non-blank lines disappear and that is 20% or more of the file, or
+#   - 3 or more headings disappear.
+# Moving text inside a file, rewording a few lines, or adding text never trips it.
+# To delete on purpose, the user approves it and the message carries a line:
+#   Docs-Removal-Approved: <who approved and why>
+# Standard: mcp-central-docs/standards/CONTENT_PRESERVATION_STANDARD.md
+# Pure sh + git + awk. Do not bypass with --no-verify.
+
+msgfile="$1"
+if grep -qiE '^Docs-Removal-Approved:[[:space:]]*[^[:space:]]' "$msgfile" 2>/dev/null; then
+  exit 0
+fi
+git rev-parse --verify -q HEAD >/dev/null 2>&1 || exit 0
+
+fail=0
+report() {
+  echo "commit-msg: $1"
+  fail=1
+}
+
+tmpdir=$(mktemp -d 2>/dev/null || echo "${TMPDIR:-/tmp}/docguard.$$")
+mkdir -p "$tmpdir"
+trap 'rm -rf "$tmpdir"' EXIT
+
+for f in $(git diff --cached --name-only --diff-filter=D | grep -iE '\.md$'); do
+  report "$f is deleted."
+done
+
+for f in $(git diff --cached --name-only --diff-filter=M | grep -iE '\.md$'); do
+  git show "HEAD:$f" 2>/dev/null | tr -d '\r' > "$tmpdir/old"
+  git show ":$f" 2>/dev/null | tr -d '\r' > "$tmpdir/new"
+  result=$(awk '
+    FNR == NR { t = $0; gsub(/^[ \t]+|[ \t]+$/, "", t); if (t != "") seen[t] = 1; next }
+    {
+      t = $0; gsub(/^[ \t]+|[ \t]+$/, "", t)
+      if (t == "") next
+      total++
+      if (!(t in seen)) {
+        lost++
+        if (t ~ /^#{1,4}[ \t]/) { heads++; hlist = hlist "\n      " t }
+      }
+    }
+    END { printf "%d %d %d%s", total, lost + 0, heads + 0, hlist }
+  ' "$tmpdir/new" "$tmpdir/old")
+  total=$(printf '%s\n' "$result" | head -n 1 | cut -d' ' -f1)
+  lost=$(printf '%s\n' "$result" | head -n 1 | cut -d' ' -f2)
+  heads=$(printf '%s\n' "$result" | head -n 1 | cut -d' ' -f3)
+  [ -z "$total" ] && continue
+  [ "$total" -eq 0 ] && continue
+  pct=$((lost * 100 / total))
+  if [ "$lost" -ge 15 ] && [ "$pct" -ge 20 ]; then
+    report "$f loses $lost of $total lines ($pct%)."
+  fi
+  if [ "$heads" -ge 3 ]; then
+    report "$f loses $heads headings:"
+    printf '%s\n' "$result" | tail -n +2
+  fi
+done
+
+if [ "$fail" -ne 0 ]; then
+  echo ""
+  echo "commit-msg: commit blocked. Documentation content would be deleted."
+  echo "  Restructuring must keep every section: move it (into the file or docs/), do not drop it."
+  echo "  If the user explicitly asked for this removal, add to the commit message:"
+  echo "    Docs-Removal-Approved: <who approved and why>"
+  echo "  See mcp-central-docs/standards/CONTENT_PRESERVATION_STANDARD.md. Do not use --no-verify."
+  exit 1
+fi
+exit 0
